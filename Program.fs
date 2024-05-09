@@ -7,10 +7,12 @@ module Program =
     /// <summary>Converts a temperature in Fahrenheit to Celcius</summary>
     /// <param name="f">The temperature in Fahrenheit</param>
     /// <returns>The temperature in Celcius</returns>
+
+    /// fahrenheit to celsius implementation.
     let fToC f =
         5.0/ 9.0 * (f - 32.0)
 
-    /// TODO: Complete and document
+    /// Celsius to fahrenheit implementation
     let cToF c = 
         (9.0/5.0 * c) + 32.0
         
